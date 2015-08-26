@@ -9,6 +9,12 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
+/**
+ * Filter store request when request of client failed.
+ * 
+ * @author Beatific Jo
+ * @since 1.0.0
+ */
 public class TouretteFilter implements Filter {
 
 	@Override
